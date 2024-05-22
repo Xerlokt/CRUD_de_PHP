@@ -1,0 +1,13 @@
+CREATE TABLE categorias(
+    cat_cod INT PRIMARY KEY AUTO_INCREMENT,
+    cat_desc VARCHAR(50)
+);
+
+CREATE TABLE produtos(
+    ID_produto INT PRIMARY KEY AUTO_INCREMENT,
+    pro_descricao VARCHAR(50), 
+    pro_valor FLOAT(6,2),
+    pro_categoria VARCHAR(50), 
+    pro_unidade INT, 
+    pro_codigoean VARCHAR(50)
+);
